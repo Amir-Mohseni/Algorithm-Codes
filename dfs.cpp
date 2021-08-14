@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-typedef pair <int, int> pii;
-
 const int N = 1e5 + 5;
 
 bool mark[N]; //marks visited vertices
