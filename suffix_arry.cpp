@@ -17,7 +17,7 @@ void prep() {
 	for (int j = 0; j < LOG; j++) {
 //  we want to find r[i][j + 1] for all i
 
-// we use a alternative array to sort [i, i + (1 << (j + 1)) )  : tmp[i]
+// we use an alternative array to sort [i, i + (1 << (j + 1)) )  : tmp[i]
 
 // tmp[i] : rank first, rank second, index
 		for (int i = 0; i < n; i++) {
